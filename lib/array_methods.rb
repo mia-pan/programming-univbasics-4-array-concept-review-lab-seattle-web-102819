@@ -8,7 +8,8 @@ array.length.times do |count|
 end
 
 def find_max_value(array)
-  # Add your solution here
+  array.lenth.times do |count|
+    if array[aount]>
 end
 
 def find_min_value(array)
