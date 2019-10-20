@@ -17,10 +17,6 @@ def find_max_value(array)
   max
 end
 
-
-
-
-
 def find_min_value(array)
   min=array[0]
   array.length.times do|count| 
