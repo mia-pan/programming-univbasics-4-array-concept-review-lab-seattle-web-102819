@@ -8,9 +8,9 @@ array.length.times do |count|
 end
 
 def find_max_value(array)
-  max=nil
+  max=array[0]
   array.length.times do |count|
-    if array[count]==max
+    if array[count]>max
       max=array[count]
     end
   end
